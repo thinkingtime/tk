@@ -4,11 +4,7 @@ import org.jivesoftware.smack.ConnectionConfiguration;
 import org.jivesoftware.smack.XMPPConnection;
 import org.jivesoftware.smack.XMPPException;
 
-/**
- * @author Sam.Io
- * @time 2011/11/18
- * @project AdXmpp
- */
+
 public class XmppTool {
 
 	public static XMPPConnection con = null;
@@ -35,9 +31,7 @@ public class XmppTool {
 		}.start();
 	}
 
-	/**
-	 * @return
-	 */
+	
 	public static XMPPConnection getConnection() {
 		if (null == con) {
 			openConnection();
