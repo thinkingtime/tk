@@ -8,7 +8,7 @@ import org.jivesoftware.smack.XMPPException;
 public class XmppTool {
 
 	public static XMPPConnection con = null;
-	private final static String server_ip = "172.25.83.99";
+	private final static String server_ip = "";
 	private final static int server_port = 5222;
 	/**
 	 * 
